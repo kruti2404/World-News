@@ -1,0 +1,21 @@
+.card {
+  width: 28rem;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  margin: 1rem;
+}
+
+.card img {
+  height: auto;
+}
+
+.primary{
+  background-color: #021e45;
+  border: #021e45;
+}

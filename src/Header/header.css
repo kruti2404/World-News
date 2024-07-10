@@ -1,0 +1,72 @@
+#NavHead img {
+  cursor: pointer;
+  padding: 0;
+  width: 70%;
+  margin-right: -300px;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  background-color: #021e45;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#navbar .Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 5px;
+}
+
+#navbar .Container ul {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  list-style: none;
+}
+ul li {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
+.d-flex {
+  width: auto;
+  height: 40px;
+  /* padding: 0 10px; */
+}
+
+.d-flex .inputfield {
+  width: auto;
+  font-size: 1.3rem;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+}
+.d-flex .inputfield:focus {
+  backdrop-filter: blur(10px);
+  border: none;
+  box-shadow: inset 0px 0px 10px #021e45;
+}
+#searchbtn{
+  border: 2px solid white;
+  background-color: #021e45;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  font-weight: 600;
+}
+#searchbtn:hover{
+  color: #021e45;
+  background-color: white;
+  background-color: white;
+  box-shadow: 0px 0px 5px #021e45 , inset 0px 0px 5px #021e45;
+}

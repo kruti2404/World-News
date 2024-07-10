@@ -1,0 +1,15 @@
+.searchPage{
+    margin-top: 5.5rem;
+    text-align: center;
+    
+}
+.searchPage h1 {
+    text-decoration: underline;
+    font-weight: 700;
+}
+.search{
+    margin-left: 50px;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
